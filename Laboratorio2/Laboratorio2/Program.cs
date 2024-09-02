@@ -41,3 +41,43 @@ namespace Laboratorio2
 
 
 }
+
+public class MyClass
+{
+    public static int Valor;
+}
+
+
+public class Program2
+{
+    public static void Main()
+    {
+        MyClass.Valor = 1;
+        Console.WriteLine(MyClass.Valor);
+    }
+}
+
+public class MyClass
+{
+    public static int Valor;
+}
+
+
+int valor1 = 28;
+valor2 = valor1;
+
+MyClass object1 = new MyClass();
+object1.Nombre = "Yeison";
+object1.Edad = 28;
+
+MyClass object2 = object1;
+
+object2.Nombre = "Jose";
+
+Console.WriteLine(object2.Nombre);
+Console.WriteLine(object1.Nombre);
+
+char caracter = 'A';
+string cadena = "Cadena de caracteres";
+
+bool condicion = true;
